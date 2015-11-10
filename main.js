@@ -1,5 +1,5 @@
-(function(){
-	"use strict";
+(() => {
+    "use strict";
 
-	window.moviesService.fetchItems().then(window.controller.drawList);
+    window.accountsService.fetchItems().then(window.controller.drawList);
 })();
